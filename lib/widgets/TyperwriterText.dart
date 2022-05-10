@@ -1,8 +1,6 @@
-import 'package:flutter/cupertino.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-// import 'package:getwidget/getwidget.dart';
 
 Widget typer(String a) {
   return Container(

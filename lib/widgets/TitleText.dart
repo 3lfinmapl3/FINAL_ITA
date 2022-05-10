@@ -7,11 +7,14 @@ Widget rt(String a) {
       padding: const EdgeInsets.all(20),
       child: RichText(
           text: TextSpan(
-        text: a,
-        style: GoogleFonts.quicksand(
-            textStyle: const TextStyle(
-          fontSize: 50,
-          color: Colors.black,
-        )),
-      )));
+            text: a,
+            style: GoogleFonts.quicksand(
+                textStyle: const TextStyle(
+                  fontSize: 50,
+                  color: Colors.black,
+                )
+            ),
+          )
+      )
+  );
 }
